@@ -1,0 +1,7 @@
+JAVAC
+mkdir bin
+
+javac -d bin/ -cp ./../AmazonEC2DCalJars/firebase-client-jvm-2.5.2.jar:./../AmazonEC2DCalJars/httpclient-4.0.1.jar:./../AmazonEC2DCalJars/jackson-annotations-2.7.2.jar:./../AmazonEC2DCalJars/jackson-core-2.7.2.jar:./../AmazonEC2DCalJars/jackson-databind-2.7.2.jar:./../AmazonEC2DCalJars/tubesock-0.0.12.jar *.java
+
+JAVA
+java -cp ./bin:./../AmazonEC2DCalJars/firebase-client-jvm-2.5.2.jar:./../AmazonEC2DCalJars/httpclient-4.0.1.jar:./../AmazonEC2DCalJars/jackson-annotations-2.7.2.jar:./../AmazonEC2DCalJars/jackson-core-2.7.2.jar:./../AmazonEC2DCalJars/jackson-databind-2.7.2.jar:./../AmazonEC2DCalJars/tubesock-0.0.12.jar Node 0
